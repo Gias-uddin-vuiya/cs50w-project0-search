@@ -71,3 +71,98 @@ nav ul li a:hover {
 .sign-in:hover {
     background-color: #004aad;
 }
+
+/* Main Container */
+main{
+    flex: 1;
+}
+.container {
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+/* Search Box */
+.input-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 550px;
+    padding: 12px 20px;
+    border: 1px solid #e0dfdf;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    background-color: white;
+    transition: box-shadow 0.3s ease;
+}
+
+.input-field:hover {
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
+}
+
+.input-field input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    flex: 1;
+    margin: 0 10px;
+    background: transparent;
+}
+
+.search-icon {
+    color: gray;
+    cursor: pointer;
+}
+
+.right-icon {
+    color: #3f3f3f;
+    font-size: 16px;
+}
+
+.fa-microphone, .fa-images {
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+/* Buttons */
+.search-lucky-btn {
+    margin-top: 20px;
+}
+
+.search-lucky-btn button {
+    margin: 0 8px;
+    padding: 10px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    color: #3f3f3f;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease, background-color 0.3s ease;
+}
+
+.search-lucky-btn button:hover {
+    background-color: #e8e8e8;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+.search-lucky-btn a{
+    text-decoration: none;
+    color: #3f3f3f;
+}
+
+/* Extra Language Link */
+.extra {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.extra a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.extra a:hover {
+    text-decoration: underline;
+}
