@@ -208,3 +208,13 @@ footer {
 .footer-items ul li a:hover {
     border-bottom: 1px solid #5f6368;
 }
+
+/* Images files design */
+.logo-subtext{
+    margin-top: -15px;
+    margin-bottom: 30px;
+    padding-left: 220px;
+    font-size: 18px;
+    color: #5e5efd;
+    cursor: pointer;
+}
