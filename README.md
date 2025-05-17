@@ -28,5 +28,5 @@ The main focus was on:
 
 ## 🎥 Demonstration Video
 
-[Watch Demo]([YOUR_DEMO_LINK_HERE](https://youtu.be/S3JIPx-zPNc?si=qMhZzYD2BfxC4Jjo))
+[Watch Demo](https://youtu.be/S3JIPx-zPNc?si=qMhZzYD2BfxC4Jjo)
 
