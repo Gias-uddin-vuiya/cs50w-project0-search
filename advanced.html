@@ -34,32 +34,47 @@
           <div class="border"></div>
         </div>
 
-        <form action="https://www.google.com/search" class="form" method="GET">
-            <div class="clue-of-the-form">
-              <p>Find pages with...</p>
-              <p>To do this in the search box.</p>
-            </div>
-    
-            <div class="form-inputs">
-              <label for="all">all these words:</label>
-              <input type="text" id="all" name="as_q">
-              <small>Type the important words: tri-colour rat terrier</small>
-    
-              <label for="exact">this exact word or phrase:</label>
-              <input type="text" id="exact" name="as_epq">
-              <small>Put exact words in quotes: "rat terrier"</small>
-    
-              <label for="any">any of these words:</label>
-              <input type="text" id="any" name="as_oq">
-              <small>Type OR between all the words you want: miniature OR standard</small>
-    
-              <label for="none">none of these words:</label>
-              <input type="text" id="none" name="as_eq">
-              <small>Put a minus sign just before words you don't want: -rodent, -"Jack Russell"</small>
+<div class="advanced-search-container">
+  <form action="https://www.google.com/search" class="form" method="GET">
+  
+  <label>Find pages with...</label>
+  <div class="whitespace"></div>
+  <label>To do this in the search box.</label>
 
-              
-              <button type="submit">Advanced Search</button>
-          </form> 
+    <div class="form-group">
+      <label for="all">all these words:</label>
+      <input type="text" id="all" name="as_q">
+      <div class="hint">Type the important words: <span>tri-colour rat terrier</span></div>
+    </div>
+
+    <div class="form-group">
+      <label for="exact">this exact word or phrase:</label>
+      <input type="text" id="exact" name="as_epq">
+      <div class="hint">Put exact words in quotes: <span>"rat terrier"</span></div>
+    </div>
+
+    <div class="form-group">
+      <label for="any">any of these words:</label>
+      <input type="text" id="any" name="as_oq">
+      <div class="hint">Type OR between all the words you want: <span>miniature OR standard</span></div>
+    </div>
+
+    <div class="form-group">
+      <label for="none">none of these words:</label>
+      <input type="text" id="none" name="as_eq">
+      <div class="hint">Put a minus sign just before words you don't want: <span>-rodent, -"Jack Russell"</span></div>
+    </div>
+
+    <div class="form-group">
+      <div class="right-align">
+        <button class="advanced-search-btn" type="submit">Advanced Search</button>
+      </div>
+    </div>
+</form>
+</div>
+
+
+
 
       </main>
 
