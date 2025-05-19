@@ -25,7 +25,6 @@ The main focus was on:
 - ✅ Blue “Advanced Search” button with white text.
 - ✅ Responsive and accessible design.
 
-
 ## 🎥 Demonstration Video
 
 [Watch Demo](https://youtu.be/S3JIPx-zPNc?si=qMhZzYD2BfxC4Jjo)
